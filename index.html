@@ -128,33 +128,59 @@
     <!-- Hero Section -->
     <section class="bg-indigo-900 text-white py-20">
       <div class="container mx-auto text-center">
-        <h1 class="text-4xl font-semibold">Hey! There</h1>
+        <h1 class="text-4xl font-semibold">
+          Do you want to Boost your Sales and Online Presence?
+        </h1>
         <p class="mt-4 text-lg">
-          Business Owners, Entrepreneurs, Business, Finance , Marketing and
-          Sales Enthusiasts.
+          If you are a business owner or entrepreneur you know how hard it's to
+          compete with the big players in the market. You need a digital
+          marketing strategy that boosts your visibility, credibility, and
+          authority. You need a partner that understands your needs and delivers
+          results. <br />
+          That’s where we come in.
         </p>
         <a
-          href="about.html"
+          href="#information-section"
           class="mt-6 inline-block px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
-          >Click Here</a
+          onclick="scrollToSection('information-section')"
+          >Learn More</a
         >
       </div>
     </section>
 
     <!-- Stylish Information Section -->
-    <section class="bg-gray-900 ontainer mx-auto py-12">
+    <section
+      id="information-section"
+      class="bg-gray-900 ontainer mx-auto py-12"
+    >
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 p-6">
-          <h2 class="text-3xl font-semibold text-white">
+          <!-- <h2 class="text-3xl font-semibold text-white">
             What inspired me to create this unique website?
-          </h2>
+          </h2> -->
           <p class="mt-4 text-gray-300 text-lg">
-            • To <b>Educate</b> Enthusiasts in Business, Sales, Marketing and
-            Finance. <br />
-            • To <b>Help</b> Businesses to grow their revenue by providing
-            marketing services.<br />
-            • To <b>Teach</b> and develop my digital marketing skills <br />
-            • To <b>Showcase</b> My Portfolio <br />
+            Are you struggling to get more traffic, leads, and sales for your
+            business? Do you want to rank higher on Google, create engaging and
+            persuasive content that build trust and loyalty with your customers?
+            If you answered yes to any of these questions, then you are in the
+            right place.<br /><br />
+            We will help you grow your business by understanding your needs,
+            challenges, and objectives, and create a customized marketing
+            strategy just for you. We will implement, monitor, and optimize your
+            marketing campaigns, and provide you with regular communication and
+            feedback, as well as measurable results and reports. Whether you are
+            a small business owner, an entrepreneur, or a SaaS company, we can
+            help you take your business to the next level <br /><br />
+            Ready to get started? Contact us today and get a free quote and
+            consultation. Just fill out the form below and we will get back to
+            you as soon as possible. Don’t miss this opportunity to grow your
+            business.
+            <a
+              href="#Contact"
+              class="mt-6 inline-block px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+              onclick="scrollToSection('information-section')"
+              >Contact Now</a
+            >
           </p>
         </div>
         <div class="md:w-1/2 p-6 md:h3">
@@ -173,7 +199,7 @@
         class="container mx-auto flex flex-col md:flex-row justify-between items-center"
       >
         <!-- Contact Information -->
-        <div class="text-center md:text-left mb-6 md:mb-0">
+        <div id="Contact" class="text-center md:text-left mb-6 md:mb-0">
           <h3 class="text-xl font-semibold">Contact Information</h3>
           <p class="mt-2">Donovan Ferrao</p>
           <p>Email: DonovanFerraoAgency@gmail.com</p>
@@ -313,13 +339,29 @@
         ],
         styles: {
           title: {
-            backgroundColor: "gray",
+            backgroundColor: "indigo",
           },
           button: {
-            backgroundColor: "gray",
+            backgroundColor: "indigo",
           },
         },
       });
+
+      // Scroll functionality
+      function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          const yOffset =
+            section.getBoundingClientRect().top + window.pageYOffset;
+          const duration = 1000; // Adjust this value to control the scroll speed (in milliseconds)
+
+          window.scrollTo({
+            top: yOffset,
+            behavior: "smooth",
+            duration: duration,
+          });
+        }
+      }
     </script>
   </body>
 </html>
