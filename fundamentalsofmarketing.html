@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P9JNMBQ7');</script>
+<!-- End Google Tag Manager -->
+<title>The Fundamentals of Marketing: A Beginner’s Guide
+</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9JNMBQ7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <!-- Navbar -->
+    <nav class="bg-gray-900 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center p-4">
+        <!-- Logo -->
+        <a href="#" class="text-2xl font-bold text-white">Donovan Ferrao</a>
+
+        <!-- Hamburger Icon (Hidden on Large Screens) -->
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="text-white focus:outline-none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Navigation Links (Hidden on Small Screens) -->
+        <div class="hidden md:flex space-x-4">
+          <a
+            href="index.html"
+            class="text-white text-center hover:text-indigo-600"
+            >Home</a
+          >
+          <a
+            href="about.html"
+            class="text-white text-center hover:text-indigo-600"
+            >About</a
+          >
+          <a
+            href="services.html"
+            class="text-white text-center hover:text-indigo-600"
+            >Services</a
+          >
+          <a
+            href="blog.html"
+            class="text-white text-center hover:text-indigo-600"
+            >Blogs</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu (Hidden by Default) -->
+    <div
+      id="mobile-menu"
+      class="hidden md:hidden bg-gray-100 text-gray-800 p-4 shadow-lg"
+    >
+      <a
+        href="index.html"
+        class="block font-semibold text-center py-2 hover:text-indigo-600"
+        >Home</a
+      >
+      <a
+        href="about.html"
+        class="block font-semibold text-center py-2 hover:text-indigo-600"
+        >About</a
+      >
+      <a
+        href="services.html"
+        class="block font-semibold text-center py-2 hover:text-indigo-600"
+        >Services</a
+      >
+      <a
+        href="blog.html"
+        class="block font-semibold text-center py-2 hover:text-indigo-600"
+        >Blogs</a
+      >
+    </div>
+
+    <script>
+      // Toggle mobile menu
+      document
+        .getElementById("mobile-menu-button")
+        .addEventListener("click", function () {
+          var mobileMenu = document.getElementById("mobile-menu");
+          if (mobileMenu.classList.contains("hidden")) {
+            mobileMenu.classList.remove("hidden");
+          } else {
+            mobileMenu.classList.add("hidden");
+          }
+        });
+    </script>
+
+    <!-- Page Title -->
+    <section class="bg-indigo-900 text-white py-16">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-semibold">The Fundamentals of Marketing: A Beginner’s Guide</h2>
+      </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="bg-gray-900 mx-auto py-12">
+         
+          <div class="container mx-auto">
+            <!-- Table of Content -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+          <!-- <img
+            src="blog-post-2.jpg"
+            alt="Blog Post 2"
+            class="w-full h-48 object-cover"
+          /> -->
+          <div class="p-6">
+            <h2 class="text-xl font-semibold text-gray-900">
+             Table of Content
+            </h2>
+            <a
+              href="#What is Marketing"
+              class="mt-6 text-black text-lg transition duration-300 ease-in-out transform hover:scale-105"
+              onclick="scrollToSection('information-section')"
+              >1) What is Marketing</a
+            ><br />
+            <a
+              href="#The 4P’s of Marketing"
+              class="mt-6 text-black rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+              onclick="scrollToSection('information-section')"
+              >2) The 4P’s of Marketing</a
+            ><br />
+            <a
+              href="#The 7P’s of Marketing"
+              class="mt-6 text-black rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+              onclick="scrollToSection('information-section')"
+              >3) The 7P’s of Marketing</a
+            ><br /><a
+              href="#The Production Concept"
+              class="mt-6 text-black rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+              onclick="scrollToSection('information-section')"
+              >4) The Production Concept</a
+            ><br /><a
+              href="#The Product Concept"
+              class="mt-6 text-black rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+              onclick="scrollToSection('information-section')"
+              >5) The Product Concept</a
+            ><br /><a
+              href="#The Selling Concept"
+              class="mt-6 text-black rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+              onclick="scrollToSection('information-section')"
+              >6) The Selling Concept</a
+            ><br /><a
+              href="#The Marketing Concept"
+              class="mt-6 text-black rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+              onclick="scrollToSection('information-section')"
+              >7) The Marketing Concept</a
+            ><br /><a
+              href="#Conclusion"
+              class="mt-6 text-black rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+              onclick="scrollToSection('information-section')"
+              >8) Conclusion</a
+            ><br />
+            
+          </div>
+        </div> <br />
+
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-8">
+        <!-- Blog Post 1 -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+          <!-- <img
+            src="blog-post-1.jpg"
+            alt="Blog Post 1"
+            class="w-full h-48 object-cover"
+          /> -->
+          <div class="p-6">
+            <h2 id="What is Marketing" class="text-xl font-semibold text-gray-900">
+              <u>What is Marketing?</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+                Marketing is the process of creating, delivering and exchanging value for customers, clients, partners and society at large. Marketing helps businesses to identify the needs and wants of their target market, and to satisfy them in a profitable way. Marketing is essential for any business that wants to survive and grow in a competitive environment. <br />
+                But what are the basic concepts and principles of marketing? How can you apply them to your own business or career? In this blog post, we will cover some of the most important topics in marketing, such as: <br />
+                • The 4P’s of Marketing <br />
+                • The 7P’s of Marketing <br />
+                • The Production Concept <br />
+                • The Product Concept <br />
+                • The Selling Concept <br />
+                • The Marketing Concept 
+
+            </p> <br />
+            <h2 id="The 4P’s of Marketing" class="text-xl font-semibold text-gray-900">
+             <u> The 4P’s of Marketing</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+              The 4P’s of Marketing, also known as the Marketing Mix, are the four main elements that a marketer has to consider when planning and implementing a marketing strategy. They are:
+              <h3 id="Search Engine Optimization" class="text-xl font-semibold text-gray-900">
+            <u>1) Product</u> 
+             </h3> 
+              <p class="mt-5 font-semibold text-gray-800">
+             The product is the good or service that the business offers to the customers. It includes the features, benefits, quality, design, packaging, branding and differentiation of the product. For example, Apple’s products are known for their innovative design, high quality, user-friendliness and distinctive brand image.
+              </p> <br />
+               <h3 id="Pay Per Click" class="text-xl font-semibold text-gray-900">
+            <u>2) Price</u> 
+             </h3> 
+              <p class="mt-5 font-semibold text-gray-800">
+              The price is the amount of money that the customers have to pay to obtain the product. It reflects the value that the customers perceive in the product, and the costs that the business incurs to produce and deliver it. For example, Starbucks charges a premium price for its coffee, because it offers a high-quality product, a comfortable ambience and a loyal customer base.
+              </p> <br />
+              <h3 id="Social Media Marketing" class="text-xl font-semibold text-gray-900">
+            <u>3) Place</u> 
+             </h3> 
+              <p class="mt-5 font-semibold text-gray-800">
+              The place is the location and distribution channel where the customers can access the product. It involves the decisions on where to sell the product, how to transport it, how to store it and how to display it. For example, Amazon sells its products online, and delivers them to the customers’ doorsteps, using its own logistics network and warehouses.
+              </p> <br />
+              <h3 id="Content Marketing" class="text-xl font-semibold text-gray-900">
+            <u>4) Promotion</u> 
+             </h3> 
+              <p class="mt-5 font-semibold text-gray-800">
+              The promotion is the communication and persuasion strategy that the business uses to inform, educate and persuade the customers about the product. It includes the tools and techniques such as advertising, sales promotion, public relations, personal selling and social media. For example, Nike uses a combination of TV commercials, online videos, celebrity endorsements, events and social media to promote its products and brand.
+              </p> <br />
+               <p class="mt-5 font-semibold text-gray-800">
+              The 4P’s of Marketing are interrelated and have to be aligned with each other and with the overall marketing objectives and strategy of the business. The 4P’s of Marketing can also be adapted and modified according to the specific characteristics of the product, the market and the customer.
+              </p> <br />
+              
+            <h2 id="The 7P’s of Marketing" class="text-xl font-semibold text-gray-900">
+              <u>The 7P’s of Marketing</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+             The 7P’s of Marketing are an extension of the 4P’s of Marketing, which include three additional elements that are relevant for service-based businesses. They are:<br />
+            </p> <br />
+            <h2 id="Advantages of Digital Marketing" class="text-xl font-semibold text-gray-900">
+              <u>5) People</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+             The people are the human resources that are involved in the delivery and consumption of the service. They include the employees, the customers and the intermediaries of the service provider. For example, the people of a hotel include the staff, the guests and the travel agents.<br />
+            </p> <br />
+            <h2 id="What is a Digital Marketing Agency"class="text-xl font-semibold text-gray-900">
+              <u>6) Process</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+            The process is the sequence of activities and procedures that are followed to deliver the service to the customers. It includes the design, standardization, customization and evaluation of the service. For example, the process of a restaurant includes the reservation, the ordering, the cooking, the serving and the billing of the food.<br />
+            </p> <br />
+            <h2 id="Why Businesses should hire a Digital Marketing Agency" class="text-xl font-semibold text-gray-900">
+              <u>7) Physical Evidence</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+            The physical evidence is the tangible and intangible elements that support and enhance the delivery and consumption of the service. It includes the environment, the equipment, the materials, the signage and the documentation of the service. For example, the physical evidence of a spa includes the décor, the music, the aroma, the towels and the receipts of the service.<br /><br />
+            The 7P’s of Marketing are also interrelated and have to be aligned with each other and with the overall marketing objectives and strategy of the business. The 7P’s of Marketing can also be adapted and modified according to the specific characteristics of the service, the market and the customer.<br />
+            </p> <br />
+            <h2 id="The Production Concept" class="text-xl font-semibold text-gray-900">
+              <u>The Production Concept</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+             The production concept is one of the oldest and simplest marketing philosophies, which states that customers will prefer products that are widely available and inexpensive. The production concept focuses on achieving high production efficiency, low costs and mass distribution. The production concept assumes that customers are primarily interested in the availability and affordability of the product, and that they are willing to accept lower quality and fewer features. For example, the production concept was adopted by Henry Ford, who mass-produced and sold his Model T car at a low price, making it accessible to millions of customers.<br /> <br />
+             The production concept can be effective when the demand for the product exceeds the supply, or when the product is a basic necessity that does not require much differentiation. However, the production concept can also lead to marketing myopia, which is the failure to recognize and respond to the changing needs and preferences of the customers. The production concept can also result in lower customer satisfaction, loyalty and retention, as well as increased competition and environmental issues.<br />
+            </p> <br />
+            <h2 id="The Product Concept" class="text-xl font-semibold text-gray-900">
+              <u>The Product Concept</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+             The product concept is another marketing philosophy, which states that customers will prefer products that offer the best quality, performance and features. The product concept focuses on making continuous improvements and innovations in the product, based on the research and development of the business. The product concept assumes that customers are primarily interested in the attributes and benefits of the product, and that they are willing to pay a higher price for superior quality and features. For example, the product concept was adopted by Sony, who introduced many innovative and high-quality products, such as the Walkman, the PlayStation and the Bravia TV.<br /> <br />
+             The product concept can be effective when the product is in the growth or maturity stage of the product life cycle, or when the product is a technological or scientific breakthrough that creates a new market or category. However, the product concept can also lead to marketing myopia, which is the failure to recognize and respond to the changing needs and preferences of the customers. The product concept can also result in higher costs, lower profitability and reduced market share, as well as increased competition and customer dissatisfaction.<br />
+            </p> <br />
+            <h2 id="The Selling Concept" class="text-xl font-semibold text-gray-900">
+              <u>The Selling Concept</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+             The selling concept is another marketing philosophy, which states that customers will not buy enough of the product unless the business undertakes a large-scale selling and promotion effort. The selling concept focuses on creating a high demand for the product, using aggressive and persuasive sales techniques and advertising campaigns. The selling concept assumes that customers are primarily influenced by the sales pitch and the promotional incentives of the business, and that they need to be convinced and stimulated to buy the product. For example, the selling concept was adopted by many insurance companies, who used hard-selling tactics and high-pressure salespeople to sell their policies to the customers.<br /> <br />
+             The selling concept can be effective when the product is in the decline stage of the product life cycle, or when the product is a non-essential or unsought good that does not generate much interest or demand from the customers. However, the selling concept can also lead to marketing myopia, which is the failure to recognize and respond to the changing needs and preferences of the customers. The selling concept can also result in lower customer satisfaction, loyalty and retention, as well as increased customer resistance and complaints.<br />
+            </p> <br />
+            <h2 id="The Marketing Concept" class="text-xl font-semibold text-gray-900">
+              <u>The Marketing Concept</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+             The marketing concept is the most modern and customer-oriented marketing philosophy, which states that the key to achieving organizational goals is to determine the needs and wants of the target market and to deliver the desired satisfactions better than the competitors. The marketing concept focuses on creating a high value for the customers, using market research, segmentation, targeting and positioning strategies. The marketing concept assumes that customers are primarily interested in the value and satisfaction that they receive from the product, and that they are willing to establish a long-term relationship with the business. For example, the marketing concept was adopted by Coca-Cola, who used market research, segmentation, targeting and positioning to create different products, prices, places and promotions for different customer segments and markets.<br /> <br />
+             The marketing concept can be effective in any stage of the product life cycle, or in any type of product or market, as long as the business can identify and satisfy the needs and wants of the customers better than the competitors. The marketing concept can also lead to higher customer satisfaction, loyalty and retention, as well as increased profitability and market share, as well as reduced competition and environmental issues.<br />
+            </p> <br />
+            <h2 id="Conclusion" class="text-xl font-semibold text-gray-900">
+              <u>Conclusion</u>
+            </h2>
+            <p class="mt-5 font-semibold text-gray-800">
+            Marketing is a vital and dynamic field that can help businesses to create and deliver value for their customers, clients, partners and society at large. Marketing involves understanding and applying various concepts and principles, such as the 4P’s of Marketing, the 7P’s of Marketing, the Production Concept, the Product Concept, the Selling Concept and the Marketing Concept. By learning and applying these concepts and principles, you can improve your marketing skills and knowledge, and enhance your business or career success.
+      
+        </div>
+         </div> 
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-indigo-900 text-white py-12">
+      <div
+        class="container mx-auto flex flex-col md:flex-row justify-between items-center"
+      >
+        <!-- Contact Information -->
+        <div class="text-center md:text-left mb-6 md:mb-0">
+          <h3 class="text-xl font-semibold">Contact Information</h3>
+          <p class="mt-2">Donovan Ferrao</p>
+          <p>Email: DonovanFerraoAgency@gmail.com</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div id="Contact" class="mt-6 md:mt-0">
+          <h3 class="text-xl font-semibold text-center md:text-left">
+            Get in Touch
+          </h3>
+          <form
+            class="mt-4"
+            action="https://formspree.io/f/xwkdawyr"
+            method="POST"
+          >
+            <div class="mb-4">
+              <input
+                type="text"
+                name="first"
+                placeholder="Your Name"
+                class="w-full px-4 py-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:bg-indigo-500"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                class="w-full px-4 py-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:bg-indigo-500"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <textarea
+                placeholder="Your Message"
+                name="message"
+                rows="4"
+                class="w-full px-4 py-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:bg-indigo-500"
+                required
+              ></textarea>
+            </div>
+            <div class="text-center">
+              <button
+                type="submit"
+                class="px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+      /* paste this line in verbatim */
+      window.formbutton =
+        window.formbutton ||
+        function () {
+          (formbutton.q = formbutton.q || []).push(arguments);
+        };
+      /* customize formbutton below*/
+      formbutton("create", {
+        action: "https://formspree.io/f/xwkdawyr",
+        title: "How can we help?",
+        fields: [
+          {
+            type: "email",
+            label: "Email:",
+            name: "email",
+            required: true,
+            placeholder: "your@email.com",
+          },
+          {
+            type: "textarea",
+            label: "Message:",
+            name: "message",
+            placeholder: "What's on your mind?",
+          },
+          { type: "submit" },
+        ],
+        styles: {
+          title: {
+            backgroundColor: "indigo",
+          },
+          button: {
+            backgroundColor: "indigo",
+          },
+        },
+      });
+
+            // Scroll functionality
+      function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          const yOffset =
+            section.getBoundingClientRect().top + window.pageYOffset;
+          const duration = 1000; // Adjust this value to control the scroll speed (in milliseconds)
+
+          window.scrollTo({
+            top: yOffset,
+            behavior: "smooth",
+            duration: duration,
+          });
+        }
+      }
+
+     
+    </script>
+      </div>
+    </footer>
+  </body>
+</html>
